@@ -27,9 +27,25 @@
                 <a href="#" class="hover:text-slate-800">Log In</a>
                 <a href="#" class="px-8 py-3 font-bold text-white bg-orangy rounded-full hover:opacity-70">Sign Up</a>
             </div>
-            <!-- @Todo Hamburger Menu -->
+            <!-- Hamburger Menu -->
+            <div class="md:hidden">
+                <button id="menu-btn" type="button" class="z-40 block hamburger lg:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
         </div>
-        <!-- @todo Mobile Menu -->
+        <!-- Mobile Menu -->
+        <div id="menu" class="absolute hidden p-6 rounded-lg bg-slate-600 left-6 right-6 top-20 z-100">
+            <div class="flex flex-col items-center justify-center w-full space-y-6 font-bold text-white rounded-sm">
+                <a href="#" class="w-full text-center">Features</a>
+                <a href="#" class="w-full text-center">Pricing</a>
+                <a href="#" class="w-full text-center">Resources</a>
+                <a href="#" class="w-full pt-6 border-t border-gray-400 text-center">Login</a>
+                <a href="#" class="w-full py-3 text-center rounded-full bg-orangy">Sign-Up</a>
+            </div>
+        </div>
     </nav>
     <section id="hero">
         <div class="container flex flex-col-reverse mx-auto p-6 lg:flex-row">
@@ -37,7 +53,7 @@
                 <h1 class="text-5xl font-bold text-center lg:text-6xl lg-max-w-md lg:text-left">
                     Build your <span class="text-greeny">marketing</span>  machine
                 </h1>
-                <p class="text-2xl text-center text-slate-400 lg:max-w-md lg:text-left">
+                <p class="text-2xl text-center text-slate-500 lg:max-w-md lg:text-left">
                     Elevate your brand, track leads, and convert more business with the all-in-one link management platform.
                 </p>
                 <div class="mx-auto lg:mx-0">
@@ -91,7 +107,7 @@
             <h2 class="text-4xl mb-6 font-bold text-center">
                 All the tools needed in one place
             </h2>
-            <p class="max-w-xs mx-auto text-center text-gray-400 md:max-w-md">
+            <p class="max-w-xs mx-auto text-center text-zinc-600 md:max-w-md">
                 Managing links is easier using the features and APIs  available in the dashboard after logging in. Advanced analytics allow you to understand what is happening with your links - so you know what you can improve and get the highest click-through rate.
             </p>
         </div>
@@ -108,7 +124,7 @@
                     </div>
                 </div>
                 <h5 class="pt-6 text-xl font-bold text-center capitalize md:text-left">Tell your story</h5>
-                <p class="text-center text-gray-400 md:text-left">
+                <p class="text-center text-zinc-600 md:text-left">
                     Increase brand recognition across all channels to create a memorable (and profitable) customer journey—without having to rely on third-party tools.
                 </p>
             </div>
@@ -119,7 +135,7 @@
                     </div>
                 </div>
                 <h5 class="pt-6 text-xl font-bold text-center capitalize md:text-left">Discover new opportunities</h5>
-                <p class="text-center text-gray-400 md:text-left">
+                <p class="text-center text-zinc-600 md:text-left">
                     Optimize your marketing spend with a user-friendly dashboard that pulls insights from all your campaigns across the web. Tweak, adjust, and plan with confidence.
                 </p>
             </div>
@@ -130,7 +146,7 @@
                     </div>
                 </div>
                 <h5 class="pt-6 text-xl font-bold text-center capitalize md:text-left">Generate more conversions</h5>
-                <p class="text-center text-gray-400 md:text-left">
+                <p class="text-center text-zinc-600 md:text-left">
                     Optimize and customize each short URL to take advantage of its potential. Set your custom alias (name), use it in affiliate programs, get QR code for printing flyers and much more.
                 </p>
             </div>
