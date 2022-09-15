@@ -6,6 +6,7 @@ module.exports = {
       colors:{
         bgWhite: 'hsl(215, 67%, 96%)',
         orangy: 'hsl(20, 87%, 70%)',
+        orangylite: 'hsl(17, 77%, 83%)',
         bluey: 'hsl(204, 69%, 20%)',
         greeny: 'hsl(166, 41%, 38%)',
         minty: 'hsl(170, 41%, 52%)',
