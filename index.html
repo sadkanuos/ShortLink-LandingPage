@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"> 
     <link href="css/style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
     <title>ShortLink Website</title>
 </head>
 <body class="bg-bgWhite">
@@ -51,8 +52,10 @@
     <section id="shorten" class="relative bg-gray-100">
         <div class="max-w-4xl mx-auto p-6 space-y-6">
             <form id="link-form" class="relative flex flex-col w-full p-10 -mt-20 space-y-4 bg-bluey rounded-lg md:flex-row md:space-y-0 md:space-x-3">
-                <input type="text" class="flex-1 p-3 border-2 rounded-lg placeholder-greeny focus:outline-none" placeholder="Insert link to shorten" id="link-input">
-                <button class="px-10 py-3 text-white bg-orangy rounded-lg hover:bg-orangylite md:py-2">Shorten</button>
+                <input type="text" id="link-input" class="flex-1 p-3 border-2 rounded-lg placeholder-greeny focus:outline-none" placeholder="Insert link to shorten">
+                <button class="px-10 py-3 text-white bg-orangy rounded-lg hover:bg-orangylite focus:outline-none md:py-2">Shorten</button>
+
+                <div class="absolute left-7 bottom-3 text-rose-400 text-sm italic" id="err-msg"></div>
             </form>
             <div class="flex flex-col items-center justify-between w-full p-6 bg-white rounded-lg md:flex-row">
                 <p class="font-bold text-center text-color-slate-800 md:text-left">https://freecodecamp.org</p>
